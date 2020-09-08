@@ -21,7 +21,7 @@ ShowScreen.navigationOptions = ({navigation}) => {
         headerRight: () => <TouchableOpacity 
             style = {{paddingRight: 15.0}} 
             onPress = {() => {
-            navigation.navigate('Edit');
+            navigation.navigate('Edit', {id: navigation.getParam('id')});
         }}>
             <EvilIcons name = "pencil" size = {30.0}/>
         </TouchableOpacity>
