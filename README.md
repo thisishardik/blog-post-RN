@@ -1,1 +1,1 @@
-# blog-post-RN
+# Blog post app
